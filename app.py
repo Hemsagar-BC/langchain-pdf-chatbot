@@ -16,14 +16,14 @@ def get_pdf_text(pdf_docs):
         pdf_reader = PdfReader(pdf)
         for page in pdf_reader.pages:
             text += page.extract_text()
-    return text   # moved outside the loop so it collects all text
+    return text  
 
 
 def get_text_chunks(raw_text):
     text_splitter = RecursiveCharacterTextSplitter(
         separators="\n",
-        chunk_size=1000,
-        chunk_overlap=200,
+        chunk_size=2000,
+        chunk_overlap=50,
         length_function=len
     )
     chunks = text_splitter.split_text(raw_text)
@@ -45,14 +45,14 @@ def get_conversation_chain(vectorstore):
     return conversation_chain
 
 def main():
-    load_dotenv()  # added missing parentheses
+    load_dotenv()  
     st.set_page_config(page_title="Chat with multiple PDF's", page_icon=":books:")
 
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
 
     st.header("Chat with multiple PDF's :books:")
-    query = st.text_input("Ask a question about your documents",placeholder="Explain about metals like i am 6 year old")
+    query = st.text_input("Ask a question about your documents")
 
     if st.session_state.conversation and query:
      with st.spinner("Generating answer..."):
