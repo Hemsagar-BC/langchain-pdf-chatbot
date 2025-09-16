@@ -17,9 +17,9 @@ Upload your PDFs & Images, and ask questions in natural language – the bot ext
 
 - 🔑 Google Gemini API key: [Get your key](https://aistudio.google.com/apikey)
 - 🧰 Tesseract OCR installed (for image/PDF OCR):
-- **Windows:** [Tesseract installer](https://github.com/UB-Mannheim/tesseract/wiki)
-- **Linux:**  `sudo apt install tesseract-ocr`  
-- **Mac:**    `brew install tesseract
+  - **Windows:** [Tesseract installer](https://github.com/UB-Mannheim/tesseract/wiki)
+  - **Linux:**  `sudo apt install tesseract-ocr`  
+  - **Mac:**    `brew install tesseract
 
 ## 🖥️Setup Instructions
 
