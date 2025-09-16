@@ -17,9 +17,9 @@ Upload your PDFs & Images, and ask questions in natural language – the bot ext
 
 - 🔑 Google Gemini API key: [Get your key](https://aistudio.google.com/apikey)
 - 🧰 Tesseract OCR installed (for image/PDF OCR):
-  - **Windows:** [Tesseract installer](https://github.com/UB-Mannheim/tesseract/wiki)
-  - **Linux:**  `sudo apt install tesseract-ocr`  
-  - **Mac:**    `brew install tesseract
+- **Windows:** [Tesseract installer](https://github.com/UB-Mannheim/tesseract/wiki)
+- **Linux:**  `sudo apt install tesseract-ocr`  
+- **Mac:**    `brew install tesseract
 
 ## 🖥️Setup Instructions
 
@@ -30,23 +30,23 @@ Follow these steps to set up the project:
 git clone https://github.com/Hemsagar-BC/langchain-pdf-chatbot.git
 cd rag-chatbot
 ```
-2.**Create a virtual environment:**
+ 2. **Create a virtual environment:**
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
-3.**Install dependencies:**
+ 3. **Install dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
-4. **Set up environment variables**:
+ 4. **Set up environment variables**:
 - Create a `.env` file in the project root.
 - Add your Google Gemini API key:
      
      ```
      GOOGLE_API_KEY=your_api_key_here
      ```
-5.**Run the project:**
+ 5. **Run the project:**
 ```bash
 python app.py
 ```
