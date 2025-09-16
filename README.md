@@ -17,7 +17,7 @@ Upload your PDFs & Images, and ask questions in natural language – the bot ext
 
 - 🔑 Google Gemini API key: [Get your key](https://developers.google.com/)
 - 🧰 Tesseract OCR installed (for image/PDF OCR):
-  - **Windows:**[Tesseract installer](https://github.com/UB-Mannheim/tesseract/wiki)
+  - **Windows:** [Tesseract installer](https://github.com/UB-Mannheim/tesseract/wiki)
   - **Linux:**  `sudo apt install tesseract-ocr`  
   - **Mac:**    `brew install tesseract
 
@@ -48,6 +48,7 @@ pip install -r requirements.txt
 4. **Set up environment variables**:
    - Create a `.env` file in the project root.
    - Add your Google Gemini API key:
+     
      ```
      GOOGLE_API_KEY=your_api_key_here
      ```
