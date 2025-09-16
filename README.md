@@ -4,18 +4,17 @@
 Upload your PDFs & Images, and ask questions in natural language – the bot extracts, chunks, embeds, and retrieves answers with sources.
 
 ✨ Features
-
-✅ Upload PDFs and extract clean text (OCR fallback for scanned docs)
-✅ Upload Images and extract text using Tesseract OCR
-✅ Smart text chunking for better context understanding
-✅ FAISS vector search for lightning-fast retrieval
-✅ Gemini Pro LLM for conversational answers
-✅ Shows sources with page numbers for transparency
-✅ Interactive chat-like interface with memory
+✅ Upload PDFs and extract clean text (OCR fallback for scanned docs).
+✅ Upload Images and extract text using Tesseract OCR.
+✅ Smart text chunking for better context understanding.
+✅ FAISS vector search for lightning-fast retrieval.
+✅ Gemini Pro LLM for conversational answers.
+✅ Shows sources with page numbers for transparency.
+✅ Interactive chat-like interface with memory.
 
 ## 📋 Prerequisites
 
-- 🔑 Google Gemini API key → [GET YOUR KEY](https://developers.google.com/)
+- 🔑 Google Gemini API key → [Get your key](https://developers.google.com/)
 - 🧰 Tesseract OCR installed (for image/PDF OCR):
   - **Windows:** [Tesseract installer](https://github.com/UB-Mannheim/tesseract/wiki)
   - **Linux:** `sudo apt install tesseract-ocr`  
@@ -30,4 +29,13 @@ Follow these steps to set up the project:
 git clone https://github.com/Hemsagar-BC/langchain-pdf-chatbot.git
 cd rag-chatbot
 
+2.**Create a virtual environment:**
+```bash
+# On Windows
+python -m venv venv
+venv\Scripts\activate
+
+# On Linux/Mac
+python3 -m venv venv
+source venv/bin/activate
 
