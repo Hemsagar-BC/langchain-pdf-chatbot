@@ -31,7 +31,6 @@ git clone https://github.com/Hemsagar-BC/langchain-pdf-chatbot.git
 cd rag-chatbot
 ```
 2.**Create a virtual environment:**
-
 ```bash
 python -m venv venv
 venv\Scripts\activate
