@@ -46,8 +46,8 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 4.**Set up environment variables:**
-  -Create a .env file in the project root.
-  -Add your Google Gemini API key:
+-Create a .env file in the project root.
+-Add your Google Gemini API key:
   ```bash
 GOOGLE_API_KEY=your_api_key_here
 ```
