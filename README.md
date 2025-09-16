@@ -3,22 +3,23 @@
 ⚡ An intelligent RAG (Retrieval-Augmented Generation) chatbot built with Streamlit, Gemini Pro, FAISS, and HuggingFace embeddings.
 Upload your PDFs & Images, and ask questions in natural language – the bot extracts, chunks, embeds, and retrieves answers with sources.
 
-✨ Features
-✅ Upload PDFs and extract clean text (OCR fallback for scanned docs)
-✅ Upload Images and extract text using Tesseract OCR
-✅ Smart text chunking for better context understanding
-✅ FAISS vector search for lightning-fast retrieval
-✅ Gemini Pro LLM for conversational answers
-✅ Shows sources with page numbers for transparency
-✅ Interactive chat-like interface with memory
+## ✨ Features
+- 📄 Upload PDFs and extract clean text (OCR fallback for scanned docs)  
+- 🖼️ Upload Images and extract text using Tesseract OCR  
+- 🧩 Smart text chunking for better context understanding  
+- ⚡ FAISS vector search for lightning-fast retrieval  
+- 🤖 Gemini Pro LLM for conversational answers  
+- 📚 Shows sources with page numbers for transparency  
+- 💬 Interactive chat-like interface with memory  
+
 
 ## 📋 Prerequisites
 
-- 🔑 Google Gemini API key → [Get your key](https://developers.google.com/)
+- 🔑 Google Gemini API key: [Get your key](https://developers.google.com/)
 - 🧰 Tesseract OCR installed (for image/PDF OCR):
-  - **Windows:** [Tesseract installer](https://github.com/UB-Mannheim/tesseract/wiki)
-  - **Linux:** `sudo apt install tesseract-ocr`  
-  - **Mac:** `brew install tesseract
+  - **Windows:**[Tesseract installer](https://github.com/UB-Mannheim/tesseract/wiki)
+  - **Linux:**  `sudo apt install tesseract-ocr`  
+  - **Mac:**    `brew install tesseract
 
 ## 🖥️Setup Instructions
 
@@ -54,16 +55,13 @@ GOOGLE_API_KEY=your_api_key_here
 ```bash
 python app.py
 ```
-
-📌 Project Structure
-📂 RAG-Chatbot
-│── app.py                # Main Streamlit app
-│── ingestion.py          # PDF & image text extraction
-│── embeddings.py         # Embedding models setup
-│── vectorstore.py        # FAISS store handling
-│── requirements.txt      # Python dependencies
-│── .gitignore            # Ignore venv, .env, etc.
-└── README.md             # Project docs
+## 📂 Project Structure
+├── app.py                # Main Streamlit app
+├── ingestion.py          # Handles PDF & Image text extraction
+├── embeddings_model.py   # Embedding and vector store logic
+├── requirements.txt      # Python dependencies
+├── .gitignore            # Ignored files & folders
+└── README.md             # Project documentation
 
 
 
