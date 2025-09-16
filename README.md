@@ -1,4 +1,4 @@
-📚 RAG Chatbot – Chat with PDFs & Images
+## 📚 RAG Chatbot – Chat with PDFs & Images
 
 ⚡ An intelligent RAG (Retrieval-Augmented Generation) chatbot built with Streamlit, Gemini Pro, FAISS, and HuggingFace embeddings.
 Upload your PDFs & Images, and ask questions in natural language – the bot extracts, chunks, embeds, and retrieves answers with sources.
@@ -56,12 +56,15 @@ GOOGLE_API_KEY=your_api_key_here
 python app.py
 ```
 ## 📂 Project Structure
-├── app.py                # Main Streamlit app
-├── ingestion.py          # Handles PDF & Image text extraction
-├── embeddings_model.py   # Embedding and vector store logic
-├── requirements.txt      # Python dependencies
-├── .gitignore            # Ignored files & folders
-└── README.md             # Project documentation
+```
+├── app.py                
+├── ingestion.py          
+├── embeddings_model.py   
+├── requirements.txt      
+├── .gitignore            
+└── README.md
+```
+          
 
 
 
