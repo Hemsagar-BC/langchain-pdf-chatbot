@@ -28,7 +28,7 @@ Follow these steps to set up the project:
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/Hemsagar-BC/langchain-pdf-chatbot.git
-cd rag-chatbot
+cd langchain-pdf-chatbot
 ```
  2. **Create a virtual environment:**
 ```bash
